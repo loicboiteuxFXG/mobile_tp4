@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_list">
+
+    <fragment
+        android:id="@+id/nav_map"
+        android:name="com.example.mapssages.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/nav_list"
+        android:name="com.example.mapssages.ui.list.ListFragment"
+        android:label="@string/menu_list"
+        tools:layout="@layout/fragment_list" />
+
+    <fragment
+        android:id="@+id/nav_connect"
+        android:name="com.example.mapssages.ui.connect.ConnectFragment"
+        android:label="@string/menu_connect"
+        tools:layout="@layout/fragment_connect">
+        <action
+            android:id="@+id/action_nav_connect_to_nav_list"
+            app:destination="@id/nav_list" />
+    </fragment>
+    <action android:id="@+id/action_global_nav_connect" app:destination="@id/nav_connect" />
+</navigation>

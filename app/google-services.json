@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "550909730361",
+    "project_id": "mapssages",
+    "storage_bucket": "mapssages.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550909730361:android:46abebbec8f347be1d77e8",
+        "android_client_info": {
+          "package_name": "com.example.mapssages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCosThS-b_gzRwIJZTTuNe8pDkWzi0Cng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
